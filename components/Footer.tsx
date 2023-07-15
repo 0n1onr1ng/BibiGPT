@@ -27,9 +27,9 @@ export default function Footer() {
         </a>
       </div>
       <div className="flex items-center space-x-1">
-        <Link href="/privacy" className="group" aria-label="隐私声明">
+        <a href="https://chat.aixingzan.com/web/#/doc?type=privacy" className="group" aria-label="隐私声明">
           Privacy Statement
-        </Link>
+        </a>
         <ModeToggle />
       </div>
     </footer>

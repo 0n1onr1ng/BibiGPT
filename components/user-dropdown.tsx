@@ -40,20 +40,6 @@ export default function UserDropdown() {
               <Edit className="h-4 w-4" />
               <p className="text-sm">导出笔记</p>
             </Link>
-            <Link
-              href="/shop"
-              className="relative flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100"
-            >
-              <ShoppingBag className="h-4 w-4" />
-              <p className="text-sm">购买次数</p>
-            </Link>
-            <Link
-              href="/#"
-              className="relative flex w-full cursor-not-allowed items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100"
-            >
-              <Clover className="h-4 w-4" />
-              <p className="text-sm">奖励计划</p>
-            </Link>
             <button
               className="relative flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100"
               onClick={() => signOut({ redirect: false })}

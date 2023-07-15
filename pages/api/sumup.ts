@@ -13,7 +13,7 @@ export const config = {
 }
 
 if (!process.env.OPENAI_API_KEY) {
-  throw new Error('Missing env var from OpenAI')
+  throw new Error('Missing env var from AIXingzan')
 }
 
 export default async function handler(req: NextRequest, context: NextFetchEvent) {

@@ -27,11 +27,11 @@ const SignInModal = ({
           <a href={BASE_DOMAIN}>
             <Image src="/tv-logo.png" alt="Logo" className="h-10 w-10 rounded-full" width={20} height={20} />
           </a>
-          <h3 className="font-display text-2xl font-bold">登录 BibiGPT</h3>
+          <h3 className="font-display text-2xl font-bold">登录星赞 AI</h3>
           <h4>
             （每天都赠送 {LOGIN_LIMIT_COUNT} 次哦）
           </h4>
-          <p className="text-sm text-pink-400">Input, Prompt, Output</p>
+          <p className="text-sm text-pink-400">你的私人提效管家</p>
         </div>
 
         <div className="flex flex-col space-y-4 bg-gray-50 px-4 py-8 md:px-16">
@@ -53,6 +53,7 @@ const SignInModal = ({
             providers={[
               'notion',
               'github',
+              'google',
               // "google", "facebook",
               // "twitter",
             ]}
@@ -72,13 +73,13 @@ const SignInModal = ({
         </div>
         <p className="pb-6 text-center text-slate-400">
           点击登录或注册，即同意
-          <a href="/terms-of-use" target="_blank" className="group underline" aria-label="服务条款">
+          <a href="https://chat.aixingzan.com/web/#/doc?type=service" target="_blank" className="group underline" aria-label="服务条款">
             服务条款
           </a>
           和
-          <Link href="/privacy" target="_blank" className="group underline" aria-label="隐私声明">
+          <a href="https://chat.aixingzan.com/web/#/doc?type=privacy" target="_blank" className="group underline" aria-label="隐私声明">
             隐私政策
-          </Link>
+          </a>
           。
         </p>
       </div>

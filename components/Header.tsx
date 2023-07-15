@@ -18,7 +18,7 @@ export default function Header({ showSingIn }: { showSingIn: (show: boolean) => 
           </a>
           <a href={BASE_DOMAIN}>
             <h2 className={clsx('text-lg sm:text-2xl', poppins.className)}>
-              <span className="text-pink-400">星赞 AI</span> AIXingzan
+              <span className="text-pink-400">星赞 AI</span> 智能总结
             </h2>
           </a>
           <div
@@ -27,7 +27,7 @@ export default function Header({ showSingIn }: { showSingIn: (show: boolean) => 
           >
             <a
               className="ml-3 hidden items-center rounded-full bg-sky-400/10 py-1 px-3 text-xs font-medium leading-5 text-sky-600 hover:bg-sky-400/20 dark:text-sky-400 xl:flex"
-              href="/release"
+              href="https://hi.aixingzan.com/"
               target="_blank"
             >
               <strong className="font-semibold">AI提效管家</strong>
