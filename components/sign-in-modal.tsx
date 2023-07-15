@@ -29,15 +29,7 @@ const SignInModal = ({
           </a>
           <h3 className="font-display text-2xl font-bold">登录 BibiGPT</h3>
           <h4>
-            （每天都赠送 {LOGIN_LIMIT_COUNT} 次哦，
-            <a
-              className="relative text-pink-400 hover:underline"
-              href={CHECKOUT_URL}
-              onClick={() => analytics.track('ShopLink Clicked')}
-            >
-              点击购买
-            </a>
-            新的次数）
+            （每天都赠送 {LOGIN_LIMIT_COUNT} 次哦）
           </h4>
           <p className="text-sm text-pink-400">Input, Prompt, Output</p>
         </div>

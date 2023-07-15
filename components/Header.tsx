@@ -13,12 +13,12 @@ export default function Header({ showSingIn }: { showSingIn: (show: boolean) => 
     <header className="supports-backdrop-blur:bg-white/60 max-w-8xl sticky top-0 z-40 mx-auto w-full flex-none border-b border-slate-900/10 bg-white/95 pt-2 backdrop-blur  transition-colors duration-500 dark:border-slate-50/[0.06] dark:border-slate-300/10 dark:bg-transparent lg:z-50 lg:mx-0 lg:border-0 lg:border-b lg:border-slate-900/10 lg:px-8">
       <div className="flex items-center justify-between px-3 sm:px-3">
         <div className="flex items-center space-x-3">
-          <a href="https://space.bilibili.com/37648256" target="_blank" rel="noopener noreferrer">
+          <a target="_blank" rel="noopener noreferrer">
             <Image src="/video-off.svg" alt="logo" className="animate-bounce" width={34} height={34} />
           </a>
           <a href={BASE_DOMAIN}>
             <h2 className={clsx('text-lg sm:text-2xl', poppins.className)}>
-              <span className="text-pink-400">哔哔终结者</span> BibiGPT
+              <span className="text-pink-400">星赞 AI</span> AIXingzan
             </h2>
           </a>
           <div
@@ -30,7 +30,7 @@ export default function Header({ showSingIn }: { showSingIn: (show: boolean) => 
               href="/release"
               target="_blank"
             >
-              <strong className="font-semibold">更新日志 v1.5.1</strong>
+              <strong className="font-semibold">AI提效管家</strong>
               <svg
                 width="2"
                 height="2"
@@ -41,7 +41,7 @@ export default function Header({ showSingIn }: { showSingIn: (show: boolean) => 
                 <circle cx="1" cy="1" r="1"></circle>
               </svg>
               <span className="ml-2 hidden min-[1372px]:inline">
-                开源项目，开发者日记 · 支持 B 站各类型链接 & 自定义输出结果 🎉
+                赋能中小微企业和个人，提效10倍 🎉
               </span>
               <svg
                 width="3"
@@ -62,50 +62,6 @@ export default function Header({ showSingIn }: { showSingIn: (show: boolean) => 
           </div>
         </div>
         <div className="flex shrink-0 items-center space-x-2 sm:space-x-5">
-          <Tooltip>
-            <TooltipTrigger>
-              <a
-                href="https://jimmylv.feishu.cn/share/base/form/shrcn9PwPzGGGiJCnH0JNfM1P3b"
-                rel="noreferrer noopener"
-                target="_blank"
-                className="flex items-center space-x-2"
-              >
-                🔥<span className="hidden pl-1 sm:block">提</span>反馈
-              </a>
-            </TooltipTrigger>
-            <TooltipContent>那可太感谢啦！</TooltipContent>
-          </Tooltip>
-          <Tooltip>
-            <TooltipTrigger>
-              <a
-                href="javascript:(function(){if (window.location.hostname.includes('bilibili.com') || window.location.hostname.includes('youtube.com')) {window.open(location.href.replace('.com', '.jimmylv.cn'), '_blank');} else {alert('🔖请进入B站或YouTube视频页面，再来点击书签哦！');}}())"
-                rel="noreferrer noopener"
-                target="_blank"
-                className="flex hidden items-center space-x-2 sm:block"
-                aria-label="书签版"
-                onClick={() => alert('🔖请拖至书签栏，进入B站或YouTube视频页面，再来点击书签哦！')}
-              >
-                🔖
-                <span className="relin-paragraph-target pl-1 text-slate-500">(书签版)</span>
-              </a>
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>🔖请拖至书签栏，进入B站视频页面再点击书签哦！</p>
-            </TooltipContent>
-          </Tooltip>
-          <a
-            href={BASE_DOMAIN + '/ios'}
-            rel="noreferrer noopener"
-            target="_blank"
-            className="flex items-center space-x-2"
-            aria-label="iOS版"
-          >
-            <Image src="/shortcuts.png" alt="logo" width={33} height={33} className="max-w-none" />
-            <span className="relin-paragraph-target hidden text-slate-500 sm:block">(iOS版)</span>
-          </a>
-          <a href="https://github.com/JimmyLv/BibiGPT" rel="noreferrer noopener" target="_blank" className="">
-            <Github width="33" height="33" />
-          </a>
           <SignIn showSingIn={showSingIn} />
         </div>
       </div>

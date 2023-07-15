@@ -9,13 +9,13 @@ export function UsageDescription() {
       href="https://www.bilibili.com/video/BV1fX4y1Q7Ux/"
     >
       你只需要把任意 Bilibili 视频 URL 中的后缀 "<span className="text-pink-400">.com</span>" 改成我的域名 "
-      <span className="text-sky-400">jimmylv.cn</span>" 就行啦！😉
+      <span className="text-sky-400">video.aixingzan.com</span>" 就行啦！😉
       <br />
       比如 www.bilibili.
       <span className="text-pink-400 line-through">com</span>
-      /video/BV1k84y1e7fW 👉 www.bilibili.
-      <span className="text-sky-400 underline">jimmylv.cn</span>
-      /video/BV1k84y1e7fW
+      /video/BV1gu411h71P 👉 www.bilibili.
+      <span className="text-sky-400 underline">video.aixingzan.com</span>
+      /video/BV1gu411h71P
     </a>
   )
 }

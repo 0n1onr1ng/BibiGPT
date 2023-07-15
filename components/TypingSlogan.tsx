@@ -34,7 +34,7 @@ export function TypingSlogan() {
         音视频内容 <br />
       </h1>
 
-      <h1 className="mt-4 w-full text-center text-4xl font-bold sm:w-[64rem] sm:text-7xl">Powered by GPT-3.5 AI</h1>
+      <h1 className="mt-4 w-full text-center text-4xl font-bold sm:w-[64rem] sm:text-7xl">Powered by AIXingzan</h1>
     </>
   )
 }

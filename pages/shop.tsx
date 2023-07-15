@@ -8,20 +8,7 @@ export default () => {
   return (
     <div>
       <h2 className="mt-10 max-w-5xl pb-10 text-center text-4xl font-bold sm:text-7xl">
-        次数用完啦！每天都能用 {RATE_LIMIT_COUNT} 次，请点击
-        <span className="relative whitespace-nowrap text-[#3290EE]">
-          <SquigglyLines />
-          <a
-            className="relative text-pink-400 hover:underline"
-            href={CHECKOUT_URL}
-            onClick={() => analytics.track('ShopLink Clicked')}
-          >
-            点击购买
-          </a>
-        </span>
-        次数哦，💰
-        <div className="mt-8">
-          或者
+        次数用完啦！每天都能用 {RATE_LIMIT_COUNT} 次，可以
           <a href="/wechat.jpg" className="text-green-400 hover:underline" target="_blank" rel="noopener noreferrer">
             「加我微信」
           </a>

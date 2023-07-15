@@ -6,7 +6,7 @@ export function UsageAction() {
       在下面的输入框，直接复制粘贴
       <a
         className="text-sky-400"
-        href="https://www.bilibili.com/video/BV1fX4y1Q7Ux/"
+        href="https://www.bilibili.com/video/BV1gu411h71P/"
         target="_blank"
         rel="noopener noreferrer"
       >
