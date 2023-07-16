@@ -27,7 +27,7 @@ export function UserKeyInput(props: { value: string | undefined; onChange: (e: a
           （每天免费 {RATE_LIMIT_COUNT} 次哦，
           <a href="https:\\hi.aixingzan.com" target="_blank" rel="noopener noreferrer">
             也可以
-            <span className="text-pink-400 hover:underline">「联系我」</span>哦 🤣）
+            <span className="text-pink-400 hover:underline">「联系我」</span>获取密钥哦）
           </a>
         </p>
       </summary>

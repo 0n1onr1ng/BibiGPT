@@ -51,11 +51,9 @@ const SignInModal = ({
             onlyThirdPartyProviders
             // magicLink
             providers={[
-              'notion',
-              'github',
               'google',
-              // "google", "facebook",
-              // "twitter",
+              // "github", "facebook",
+              // "twitter","notion",
             ]}
             appearance={{
               theme: ThemeSupa,
@@ -73,11 +71,11 @@ const SignInModal = ({
         </div>
         <p className="pb-6 text-center text-slate-400">
           点击登录或注册，即同意
-          <a href="https://chat.aixingzan.com/web/#/doc?type=service" target="_blank" className="group underline" aria-label="服务条款">
+          <a href="/terms" target="_blank" className="group underline" aria-label="服务条款">
             服务条款
           </a>
           和
-          <a href="https://chat.aixingzan.com/web/#/doc?type=privacy" target="_blank" className="group underline" aria-label="隐私声明">
+          <a href="/privacy" target="_blank" className="group underline" aria-label="隐私声明">
             隐私政策
           </a>
           。

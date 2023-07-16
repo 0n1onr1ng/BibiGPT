@@ -48,7 +48,7 @@ export default async function handler(req: NextRequest, context: NextFetchEvent)
   try {
     const stream = true
     const openAiPayload = {
-      model: 'gpt-3.5-turbo',
+      model: 'gpt-3.5-turbo-16k-0613',
       messages: [
         // { role: ChatGPTAgent.system, content: systemPrompt },
         // { role: ChatGPTAgent.user, content: examplePrompt.input },
