@@ -19,9 +19,9 @@ const page = () => {
                 Your access to and use of the Service are available for your use only on the
                 condition that you agree to the Terms of Service available under the
                 following address:{" "}
-                <a href="https://www.GoSea.com/terms">https://www.GoSea.com/terms</a>{" "}
+                <a href="https://video.aixingzan.com/terms">https://video.aixingzan/terms</a>{" "}
                 (“Terms of Service”) which include the terms of the Privacy Policy set forth
-                below. GoSea.com (“Company”) operates the Service.We use your data to
+                below. aixingzan.com (“Company”) operates the Service.We use your data to
                 provide and improve Service. By using Service, you agree to the collection
                 and use of information in accordance with this policy. Unless otherwise
                 defined in this Privacy Policy, the terms used in this Privacy Policy have
@@ -29,7 +29,7 @@ const page = () => {
             </p>
             <h5>2. Definitions</h5>
             <p>
-                <b>API</b> means GoSea.com application programming interface to be integrated
+                <b>API</b> means aixingzan.com application programming interface to be integrated
                 with the User’s software.
             </p>
             <p>
@@ -74,14 +74,14 @@ const page = () => {
             </p>
             <p>
                 <b>Website</b> means web pages located at{" "}
-                <a href="https://GoSea.com">GoSea.com</a>.
+                <a href="https://aixingzan.com">aixingzan.com</a>.
             </p>
             <p>
-                <b>Widget</b> means a GoSea.com widget that may be implemented to the User’s
+                <b>Widget</b> means a aixingzan.com widget that may be implemented to the User’s
                 website.
             </p>
             <h5>3. The Data Controller</h5>
-            <p>The controller of your Personal Data is: GoSea.com.</p>
+            <p>The controller of your Personal Data is: aixingzan.com.</p>
             <h5>4. Information Collection and Use</h5>
             <p>
                 We collect several different types of information for various purposes to
@@ -144,7 +144,7 @@ const page = () => {
                 </li>
             </ol>
             <h5>6. Use of Data</h5>
-            <p>GoSea.com uses the collected Personal Data for various purposes:</p>
+            <p>aixingzan.com uses the collected Personal Data for various purposes:</p>
             <ol type="a">
                 <li>
                     to provide and maintain our Service; type of Personal Data: email address,
@@ -330,7 +330,7 @@ const page = () => {
             </ol>
             <p>
                 If you wish to execute any of the above-mentioned rights, please email us at
-                support@GoSea.com. Please note that we may ask you to verify your identity
+                support@aixingzan.com. Please note that we may ask you to verify your identity
                 before responding to such requests. Please note, we may not able to provide
                 Service without some necessary data.
             </p>
@@ -365,7 +365,7 @@ const page = () => {
                 </li>
                 <li>
                     users are able to change their personal information by emailing us at
-                    support@GoSea.com.
+                    support@aixingzan.com.
                 </li>
             </ol>
             <p>Our Policy on “Do Not Track” Signals:</p>
@@ -474,7 +474,7 @@ const page = () => {
             <h5>19. Contact Us</h5>
             <p>
                 If you have any questions about this Privacy Policy, please contact us at
-                support@GoSea.com.
+                support@aixingzan.com.
             </p>
             <h5>20. Privacy Policy Addendum</h5>
             <p>

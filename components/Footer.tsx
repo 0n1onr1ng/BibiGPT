@@ -27,8 +27,11 @@ export default function Footer() {
         </a>
       </div>
       <div className="flex items-center space-x-1">
-        <a href="/privacy" className="group" aria-label="隐私声明">
-          Privacy Statement
+        <a href="/components/privacy" className="group" aria-label="隐私声明">
+          Privacy
+        </a>
+        <a href="/components/terms" className="group" aria-label="服务协议">
+          terms
         </a>
         <ModeToggle />
       </div>

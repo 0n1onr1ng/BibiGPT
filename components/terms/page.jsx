@@ -14,8 +14,8 @@ const page = () => {
                     <p>
                         These Terms of Service (“Terms”, “Terms of Service”) are used to determine
                         the rules of the Service and to clarify the legal relationship between the
-                        entity using the Service and the Company. GoSea.com. (“Company”) operates
-                        web pages located at{/* */} <a href="https://GoSea.com">GoSea.com</a>{" "}
+                        entity using the Service and the Company. aixingzan.com. (“Company”) operates
+                        web pages located at{/* */} <a href="https://aixingzan.com.com">aixingzan.com.com</a>{" "}
                         („Website”) and offers Service (as defined below in Section 2).{/* */}The
                         Service is dedicated to the professional entities to help them to conduct
                         their business. Using the Website and/or the Service in any manner, also by
@@ -27,7 +27,7 @@ const page = () => {
                         effective. If the User does not agree to apply under the provisions of the
                         Terms, he/she should not use the Service. In such a case however, the User
                         may contact the Company by emailing at{" "}
-                        <a href="mailto:support@GoSea.com">support@GoSea.com</a> {/* */}so the
+                        <a href="mailto:support@aixingzan.com">support@aixingzan.com</a> {/* */}so the
                         Company can try to find a solution.
                     </p>
                     <h5>2. Definitions</h5>
@@ -45,11 +45,11 @@ const page = () => {
                         using the Service.
                     </p>
                     <p>
-                        <b>API</b> – means GoSea.com application programming interface to be
+                        <b>API</b> – means aixingzan.com application programming interface to be
                         integrated with the User’s software.
                     </p>
                     <p>
-                        <b>Company</b> – means GoSea.com,
+                        <b>Company</b> – means aixingzan.com,
                     </p>
                     <p>
                         <b>Content</b> – means the contents such as texts, pictures and other, which
@@ -97,8 +97,8 @@ const page = () => {
                         <b>Privacy Policy</b> – means the Privacy Policy, which defines the rules of
                         personal data processing by the Company, available under the following
                         internet address:{/* */}{" "}
-                        <a href="https://www.GoSea.com/privacy">
-                            https://www.GoSea.com/privacy
+                        <a href="https://video.aixingzan.com/privacy">
+                            https://video.aixingzan.com/privacy
                         </a>
                         .
                     </p>
@@ -110,17 +110,17 @@ const page = () => {
                     <p>
                         <b>Terms</b> – means these terms of service available under the following
                         address:{/* */}{" "}
-                        <a href="https://www.GoSea.com/terms">https://www.GoSea.com/terms</a>.
+                        <a href="https://video.aixingzan.com/terms">https://video.aixingzan.com/terms</a>.
                     </p>
                     <p>
                         <b>User</b> – means an entity who owns the Account.
                     </p>
                     <p>
                         <b>Website</b> – means web pages located at{/* */}{" "}
-                        <a href="https://GoSea.com">GoSea.com</a>.
+                        <a href="https://aixingzan.com">aixingzan.com</a>.
                     </p>
                     <p>
-                        <b>Widget</b> – means a GoSea.com widget that may be implemented to the
+                        <b>Widget</b> – means a aixingzan.com widget that may be implemented to the
                         User’s website.
                     </p>
                     <p>
@@ -219,7 +219,7 @@ const page = () => {
                         you cancel it or the Company cancels it. You may cancel your Subscription
                         renewal either through your Account or by contacting Company’s customer
                         support team at{/* */}{" "}
-                        <a href="mailto:support@GoSea.com">support@GoSea.com</a>. A valid
+                        <a href="mailto:support@aixingzan.com">support@aixingzan.com</a>. A valid
                         payment method, including credit or debit card, Apple Pay or Google Pay, is
                         required to process the payment for your subscription. You shall provide the
                         Company with accurate and complete billing information including (i) full
@@ -431,7 +431,7 @@ const page = () => {
                         authorized on behalf of one, and you believe that the copyrighted work has
                         been copied in a way that constitutes copyright Infringement, please submit
                         your claim via email to{/* */}{" "}
-                        <a href="mailto:support@GoSea.com">support@GoSea.com</a>, with the
+                        <a href="mailto:support@aixingzan.com">support@aixingzan.com</a>, with the
                         subject line: “Copyright Infringement” and include in your claim a detailed
                         description of the alleged Infringement as detailed below, under “DMCA
                         Notice and Procedure for Copyright Infringement Claims”. You may be held
@@ -472,7 +472,7 @@ const page = () => {
                     </ul>
                     <p>
                         You can contact our Copyright Agent via email at{/* */}{" "}
-                        <a href="mailto:support@GoSea.com">support@GoSea.com</a>.
+                        <a href="mailto:support@aixingzan.com">support@aixingzan.com</a>.
                     </p>
                     <h5>16. Error Reporting and Feedback</h5>
                     <p>
@@ -484,7 +484,7 @@ const page = () => {
                     </p>
                     <p>
                         You may provide us directly at{/* */}{" "}
-                        <a href="mailto:support@GoSea.com">support@GoSea.com</a> with
+                        <a href="mailto:support@aixingzan.com">support@aixingzan.com</a> with
                         information and feedback concerning errors, suggestions for improvements,
                         ideas, problems, complaints, and other matters related to our Service
                         (“Feedback”). You acknowledge and agree that: (i) you shall not retain,
@@ -677,7 +677,7 @@ const page = () => {
                     <h5>29. Contact Us</h5>
                     <p>
                         Any time you wish to contact the Company, please send email at:{/* */}{" "}
-                        <a href="mailto:support@GoSea.com">support@GoSea.com</a>.
+                        <a href="mailto:support@aixingzan.com">support@aixingzan.com</a>.
                     </p>
                 </div>
             </div>
