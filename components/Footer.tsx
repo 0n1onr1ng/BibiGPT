@@ -27,11 +27,11 @@ export default function Footer() {
         </a>
       </div>
       <div className="flex items-center space-x-1">
-        <a href="/components/privacy" className="group" aria-label="隐私声明">
-          Privacy
+        <a href="https://hi.aixingzan.com/privacy" className="group" aria-label="隐私声明">
+          隐私声明
         </a>
-        <a href="/components/terms" className="group" aria-label="服务协议">
-          terms
+        <a href="https://hi.aixingzan.com/terms" className="group" aria-label="服务协议">
+          服务协议
         </a>
         <ModeToggle />
       </div>
