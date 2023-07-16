@@ -94,7 +94,7 @@ export function useSummarize(showSingIn: (show: boolean) => void, enableStream: 
         setLoading(false)
         toast({
           variant: 'destructive',
-          title: 'API 请求出错，请重试。',
+          title: '密钥请求出错，请重试。',
           description: result.errorMessage,
         })
         return
