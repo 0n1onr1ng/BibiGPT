@@ -49,7 +49,7 @@ export function PromptOptions({
           id="sentenceNumber"
           type="range"
           min={3}
-          max={15}
+          max={10}
           step={1}
           className="h-2 w-full cursor-pointer rounded-lg bg-gray-200 accent-black dark:bg-gray-700"
           {...register('sentenceNumber', {
