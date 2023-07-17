@@ -1,6 +1,6 @@
 export function extractTimestamp(matchResult: RegExpMatchArray) {
   let timestamp: string | undefined
-  const seconds = Number(matchResult[1].replace(':', '.'))
+  const seconds = Number(matchResult[1].replace(':', '.'))/1000
   const hours = Math.floor(seconds / 3600)
   const remainingSeconds = Math.floor(seconds % 3600)
   const minutes = Math.floor(remainingSeconds / 60)

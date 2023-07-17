@@ -1,5 +1,5 @@
-export const BASE_DOMAIN = 'https://video.aixingzan.com'
-export const CHECKOUT_URL = 'https://chat.aixingzan.com'
+export const BASE_DOMAIN = 'https://video.aiforce.us'
+export const CHECKOUT_URL = 
 export const LOGIN_LIMIT_COUNT = 5
 export const FREE_LIMIT_COUNT = 5
 export const RATE_LIMIT_COUNT = LOGIN_LIMIT_COUNT + FREE_LIMIT_COUNT
