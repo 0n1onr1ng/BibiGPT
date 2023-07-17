@@ -9,9 +9,8 @@ module.exports = {
   reactStrictMode: true,
   images: {
     domains: [
-      process.env.SUPABASE_HOSTNAME || 'xxxx.supabase.co', // to prevent vercel failed
-      'b.jimmylv.cn',
-      'avatars.dicebear.com',
+      process.env.SUPABASE_HOSTNAME || 'jlbxxyhwfcdrdwyypdkk.supabase.co', // to prevent vercel failed
+      'video.aiforce.us',
       // "i2.hdslb.com",
       // "avatars.githubusercontent.com",
       // "s3-us-west-2.amazonaws.com",
