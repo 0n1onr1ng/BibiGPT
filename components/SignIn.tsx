@@ -19,14 +19,14 @@ export default function SignIn({ showSingIn }: { showSingIn: (show: boolean) => 
     analytics.track('SignInButton Clicked')
   }
 
-  /*useEffect(() => {
+  useEffect(() => {
       async function loadData() {
         const { data } = await supabaseClient.from('test').select('*')
         setData(data)
       }
       // Only run query once user is logged in.
       if (user) loadData()
-    }, [user])*/
+    }, [user])
   return (
     <div>
       <AnimatePresence>

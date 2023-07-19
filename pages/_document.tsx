@@ -3,9 +3,9 @@ import { BASE_DOMAIN } from '~/utils/constants'
 
 class MyDocument extends Document {
   render() {
-    let description = 'B 站视频内容一键总结（支持 iOS 快捷指令）'
+    let description = 'B 站视频内容一键总结'
     let ogimage = `${BASE_DOMAIN}/og-image.png`
-    let sitename = 'b.jimmylv.cn'
+    let sitename = 'video.aixingzan.us'
     let title = '哔哩哔哩 · 视频内容一键总结'
 
     return (
